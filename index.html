@@ -1,0 +1,2417 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+	<meta charset="UTF-8">
+	<title>Webi</title>
+
+	<link rel="icon" href="img/Webi-Logo-Jim-Fahad-Digital.png" type="image/png" sizes="32x32">
+    <!-- Optional: Add additional sizes for different devices -->
+    <link rel="icon" href="img/Webi-Logo-Jim-Fahad-Digital.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="img/Webi-Logo-Jim-Fahad-Digital.png" type="image/png" sizes="16x16">
+	<meta name='robots' content='max-image-preview:large' />
+	<link rel="alternate" type="application/rss+xml" title="Webi &raquo; Feed" href="feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Webi &raquo; Comments Feed"
+		href="comments/feed/index.html" />
+	<script>
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/kitpapa.net\/webi\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2" } };
+		/*! This file is auto-generated */
+		!function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !s("\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+	</script>
+	<style>
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet'  href='css/style.minae48.css'
+		media='all' />
+	<link rel='stylesheet'  href='css/classic-themes.minae48.css'
+		media='all' />
+	<style id='global-styles-inline-css'>
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+			--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+			--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+			--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+			--wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+			--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+			--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+			--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flow>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-flow>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-flow>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-constrained>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-constrained>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+			max-width: var(--wp--style--global--content-size);
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignwide {
+			max-width: var(--wp--style--global--wide-size);
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		body .is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		body .is-layout-flex>* {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		.wp-block-navigation a:where(:not(.wp-element-button)) {
+			color: inherit;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		.wp-block-pullquote {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel='stylesheet' id='hfe-style-css'
+		href='css/header-footer-elementord2ac.css'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-css'
+		href='css/elementor-icons.minfc13.css' media='all' />
+		
+	<link rel='stylesheet' id='elementor-frontend-css'
+		href='css/frontend-lite.min2916.css' media='all' />
+	<link rel='stylesheet' id='swiper-css'
+		href='css/swiper.min94a4.css' media='all' />
+	<link rel='stylesheet' id='elementor-post-9-css'
+		href='css/post-9c1c3.css' media='all' />
+	<link rel='stylesheet' id='elementor-global-css'
+		href='css/globalc1c3.css' media='all' />
+	<link rel='stylesheet' id='elementor-post-215-css'
+		href='css/post-215134b.css' media='all' />
+	<link rel='stylesheet' id='hfe-widgets-style-css'
+		href='css/frontendd2ac.css' media='all' />
+	<link rel='stylesheet' id='hello-elementor-css' href='css/style.min653d.css'
+		media='all' />
+	<link rel='stylesheet' id='hello-elementor-theme-style-css'
+		href='css/theme.min653d.css' media='all' />
+	<link rel='stylesheet' id='google-fonts-1-css'
+		href='https://fonts.googleapis.com/css?family=Inter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRed+Rose%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.2'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-shared-0-css'
+		href='css/fontawesome.min52d5.css'
+		media='all' />
+	<link rel='stylesheet' id='elementor-icons-fa-solid-css'
+		href='css/solid.min52d5.css' media='all' />
+	<link rel='stylesheet' id='elementor-icons-fa-regular-css'
+		href='css/regular.min52d5.css' media='all' />
+	<link rel='stylesheet' id='elementor-icons-fa-brands-css'
+		href='css/brands.min52d5.css' media='all' />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script src='js/jquery.mina767.js' id='jquery-core-js'></script>
+	<script src='js/jquery-migrate.min6b00.js' id='jquery-migrate-js'></script>
+	<link rel="https://api.w.org/" href="wp-json/index.html" />
+	<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/215.json" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+	<meta name="generator" content="WordPress 6.2" />
+	<link rel="canonical" href="index.html" />
+	<link rel='shortlink' href='index.html' />
+	<link rel="alternate" type="application/json+oembed"
+		href="wp-json/oembed/1.0/embed7030.json?url=https%3A%2F%2Fkitpapa.net%2Fwebi%2F" />
+	<link rel="alternate" type="text/xml+oembed"
+		href="wp-json/oembed/1.0/embedc02b?url=https%3A%2F%2Fkitpapa.net%2Fwebi%2F&amp;format=xml" />
+	<style type="text/css" id="cst_font_data">
+		@font-face {
+			font-family: "ClashDisplay";
+			font-display: auto;
+			font-weight: 500;
+			src: url(img/ClashDisplay-Medium.woff2) format('woff2'), url(https://kitpapa.net/webi/img/ClashDisplay-Medium.woff) format('woff'), url(https://kitpapa.net/webi/img/ClashDisplay-Medium.ttf) format('TrueType'), url(https://kitpapa.net/webi/img/ClashDisplay-Medium.eot) format('eot'), url(https://kitpapa.net/webi/img/ClashDisplay-Medium.otf) format('OpenType');
+		}
+	</style>
+	<meta name="generator"
+		content="Elementor 3.13.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+</head>
+
+<body
+	class="home page-template page-template-elementor_canvas page page-id-215 ehf-template-hello-elementor ehf-stylesheet-hello-elementor elementor-default elementor-template-canvas elementor-kit-9 elementor-page elementor-page-215">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-dark-grayscale">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 0.49803921568627" />
+					<feFuncG type="table" tableValues="0 0.49803921568627" />
+					<feFuncB type="table" tableValues="0 0.49803921568627" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-grayscale">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 1" />
+					<feFuncG type="table" tableValues="0 1" />
+					<feFuncB type="table" tableValues="0 1" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-purple-yellow">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+					<feFuncG type="table" tableValues="0 1" />
+					<feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-blue-red">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 1" />
+					<feFuncG type="table" tableValues="0 0.27843137254902" />
+					<feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-midnight">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 0" />
+					<feFuncG type="table" tableValues="0 0.64705882352941" />
+					<feFuncB type="table" tableValues="0 1" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-magenta-yellow">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.78039215686275 1" />
+					<feFuncG type="table" tableValues="0 0.94901960784314" />
+					<feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-purple-green">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+					<feFuncG type="table" tableValues="0 1" />
+					<feFuncB type="table" tableValues="0.44705882352941 0.4" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+		style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-blue-orange">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+					values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.098039215686275 1" />
+					<feFuncG type="table" tableValues="0 0.66274509803922" />
+					<feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+					<feFuncA type="table" tableValues="1 1" />
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in" />
+			</filter>
+		</defs>
+	</svg>
+	<div data-elementor-type="wp-page" data-elementor-id="215" class="elementor elementor-215">
+		<div class="elementor-element elementor-element-292ba803 e-con-boxed e-flex e-con" data-id="292ba803"
+			data-element_type="container"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-26e936c2 elementor-widget elementor-widget-image"
+					data-id="26e936c2" data-element_type="widget" data-widget_type="image.default">
+					<div class="elementor-widget-container">
+						<style>
+							/*! elementor - v3.13.1 - 09-05-2023 */
+							.elementor-widget-image {
+								text-align: center
+							}
+
+							.elementor-widget-image a {
+								display: inline-block
+							}
+
+							.elementor-widget-image a img[src$=".svg"] {
+								width: 48px
+							}
+
+							.elementor-widget-image img {
+								vertical-align: middle;
+								display: inline-block
+							}
+						</style> <img decoding="async" width="188" height="60"
+							src="img/Webi-Logo-Jim-Fahad-Digital.png"
+							class="attachment-large size-large wp-image-152" alt="" loading="lazy" />
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-8ce96f hfe-menu-item-space-between hfe-submenu-icon-arrow hfe-link-redirect-child elementor-widget elementor-widget-navigation-menu"
+					data-id="8ce96f" data-element_type="widget"
+					data-settings="{&quot;hamburger_align&quot;:&quot;right&quot;,&quot;hamburger_menu_align&quot;:&quot;space-between&quot;,&quot;width_flyout_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:300,&quot;sizes&quot;:[]},&quot;width_flyout_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_flyout_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_flyout_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:30,&quot;sizes&quot;:[]},&quot;padding_flyout_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_flyout_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_top_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_top_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_top_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;close_flyout_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;close_flyout_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;close_flyout_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+					data-widget_type="navigation-menu.default">
+					<div class="elementor-widget-container">
+						<div class="hfe-nav-menu__toggle elementor-clickable hfe-flyout-trigger" tabindex="0">
+							<div class="hfe-nav-menu-icon">
+								<i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
+							</div>
+						</div>
+						<div class="hfe-flyout-wrapper">
+							<div class="hfe-flyout-overlay elementor-clickable"></div>
+							<div class="hfe-flyout-container">
+								<div id="hfe-flyout-content-id-8ce96f" class="hfe-side hfe-flyout-left hfe-flyout-open"
+									data-layout="left" data-flyout-type="normal">
+									<div class="hfe-flyout-content push">
+										<nav>
+											<ul id="menu-1-8ce96f" class="hfe-nav-menu">
+												<li id="menu-item-147"
+													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+													<a href="#benefits" class="hfe-menu-item">Benefits</a></li>
+												<li id="menu-item-148"
+													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+													<a href="#speakers" class="hfe-menu-item">Speakers</a></li>
+												<li id="menu-item-149"
+													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+													<a href="#faq" class="hfe-menu-item">FAQ</a></li>
+												<li id="menu-item-150"
+													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+													<a href="#booking" class="hfe-menu-item">Booking</a></li>
+
+													<li id="menu-item-151"
+													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+													<a href="register.html" class="hfe-menu-item">Register</a></li>
+
+											</ul>
+										</nav>
+										<div class="elementor-clickable hfe-flyout-close" tabindex="0">
+											<i aria-hidden="true" tabindex="0" class="far fa-window-close"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-45330e4a elementor-hidden-mobile elementor-widget elementor-widget-button"
+					data-id="45330e4a" data-element_type="widget" data-widget_type="button.default">
+					<div class="elementor-widget-container">
+						<div class="elementor-button-wrapper">
+							<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+								<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Let's Get Started</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="elementor-element elementor-element-6c38368d e-con-boxed e-flex e-con" data-id="6c38368d"
+			data-element_type="container"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-62ad8641 e-con-full e-flex e-con" data-id="62ad8641"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-27cc1d55 elementor-widget elementor-widget-heading"
+						data-id="27cc1d55" data-element_type="widget" data-widget_type="heading.default">
+						<div class="elementor-widget-container">
+							<style>
+								/*! elementor - v3.13.1 - 09-05-2023 */
+								.elementor-heading-title {
+									padding: 0;
+									margin: 0;
+									line-height: 1
+								}
+
+								.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+									color: inherit;
+									font-size: inherit;
+									line-height: inherit
+								}
+
+								.elementor-widget-heading .elementor-heading-title.elementor-size-small {
+									font-size: 15px
+								}
+
+								.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+									font-size: 19px
+								}
+
+								.elementor-widget-heading .elementor-heading-title.elementor-size-large {
+									font-size: 29px
+								}
+
+								.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+									font-size: 39px
+								}
+
+								.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+									font-size: 59px
+								}
+							</style>
+							<h2 class="elementor-heading-title elementor-size-default">Grow your skills to advance your
+								career path</h2>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-23f9e7a7 elementor-widget elementor-widget-text-editor"
+						data-id="23f9e7a7" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+							<style>
+								/*! elementor - v3.13.1 - 09-05-2023 */
+								.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+									background-color: #69727d;
+									color: #fff
+								}
+
+								.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+									color: #69727d;
+									border: 3px solid;
+									background-color: transparent
+								}
+
+								.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+									margin-top: 8px
+								}
+
+								.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+									width: 1em;
+									height: 1em
+								}
+
+								.elementor-widget-text-editor .elementor-drop-cap {
+									float: left;
+									text-align: center;
+									line-height: 1;
+									font-size: 50px
+								}
+
+								.elementor-widget-text-editor .elementor-drop-cap-letter {
+									display: inline-block
+								}
+							</style>
+							<p>Inventore veritatis et architecto beatae vitae dicta explicabo nemo<br />enim ipsam
+								voluptatem quia voluptas aspernatur magni dolores</p>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-547bac58 e-con-boxed e-flex e-con"
+						data-id="547bac58" data-element_type="container"
+						data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+						<div class="e-con-inner">
+							<div class="elementor-element elementor-element-38378872 elementor-widget elementor-widget-button"
+								data-id="38378872" data-element_type="widget" data-widget_type="button.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+										<a href="#" class="elementor-button-link elementor-button elementor-size-sm"
+											role="button">
+											<span class="elementor-button-content-wrapper">
+												<span class="elementor-button-text">Book Your Seat Now</span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-4f845443 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+								data-id="4f845443" data-element_type="widget" data-widget_type="icon-list.default">
+								<div class="elementor-widget-container">
+									<link rel="stylesheet"
+										href="wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
+									<ul class="elementor-icon-list-items">
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-clock"></i> </span>
+											<span class="elementor-icon-list-text">7 October 2023</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-75fe2a06 e-con-boxed e-flex e-con"
+						data-id="75fe2a06" data-element_type="container"
+						data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+						<div class="e-con-inner">
+							<div class="elementor-element elementor-element-54cb5ed5 elementor-widget elementor-widget-image"
+								data-id="54cb5ed5" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="144" height="64"
+										src="img/People-in-Banner-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-14" alt="" loading="lazy" />
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-25a9299c elementor-widget elementor-widget-text-editor"
+								data-id="25a9299c" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p><strong>240 people</strong><br />already registered</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-708147d6 e-con-full e-flex e-con" data-id="708147d6"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-4195b7c3 elementor-widget elementor-widget-image"
+						data-id="4195b7c3" data-element_type="widget" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img decoding="async" width="638" height="748"
+								src="img/Hero-Banner-Img1-Jim-Fahad-Digital.png"
+								class="attachment-large size-large wp-image-23" alt="" loading="lazy"
+								sizes="(max-width: 638px) 100vw, 638px" />
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-6e8aaea9 elementor-absolute elementor-widget elementor-widget-image"
+						data-id="6e8aaea9" data-element_type="widget"
+						data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img decoding="async" width="290" height="261"
+								src="img/Hero-Banner-Img2-Jim-Fahad-Digital.png"
+								class="attachment-large size-large wp-image-21" alt="" loading="lazy" />
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-33aceb14 elementor-absolute elementor-widget elementor-widget-image"
+						data-id="33aceb14" data-element_type="widget"
+						data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+						<div class="elementor-widget-container">
+							<img decoding="async" width="317" height="190"
+								src="img/Hero-Banner-Img3-Jim-Fahad-Digital.png"
+								class="attachment-large size-large wp-image-22" alt="" loading="lazy"
+								sizes="(max-width: 317px) 100vw, 317px" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="elementor-element elementor-element-2d049364 e-con-boxed e-flex e-con" data-id="2d049364"
+			data-element_type="container" id="benefits"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5657bf9a elementor-widget elementor-widget-heading"
+					data-id="5657bf9a" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+						<h2 class="elementor-heading-title elementor-size-default">Benefits of attending this</h2>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-2d356bb1 e-con-boxed e-flex e-con" data-id="2d356bb1"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-6fd772b9 info-box e-con-boxed e-flex e-con"
+							data-id="6fd772b9" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-52573460 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon"
+									data-id="52573460" data-element_type="widget" data-widget_type="icon.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-icon-wrapper">
+											<div class="elementor-icon">
+												<i aria-hidden="true" class="fas fa-person-booth"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-15ab0cfa elementor-widget elementor-widget-heading"
+									data-id="15ab0cfa" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Learn form experts
+										</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-106e3a98 elementor-widget elementor-widget-text-editor"
+									data-id="106e3a98" data-element_type="widget"
+									data-widget_type="text-editor.default">
+									<div class="elementor-widget-container">
+										<p>Veritatis architecto beatae dicta nemo enim ipsam voluptatem consequuntur
+											magni dolores eos voluptatem matis</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-78c0b44e e-con-boxed e-flex e-con"
+							data-id="78c0b44e" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-687284f6 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon"
+									data-id="687284f6" data-element_type="widget" data-widget_type="icon.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-icon-wrapper">
+											<div class="elementor-icon">
+												<i aria-hidden="true" class="fas fa-people-carry"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-1d73b9f2 elementor-widget elementor-widget-heading"
+									data-id="1d73b9f2" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Build relationships
+										</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-2a7699a4 elementor-widget elementor-widget-text-editor"
+									data-id="2a7699a4" data-element_type="widget"
+									data-widget_type="text-editor.default">
+									<div class="elementor-widget-container">
+										<p>Veritatis architecto beatae dicta nemo enim ipsam voluptatem consequuntur
+											magni dolores eos voluptatem matis</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-615ef69f info-box e-con-boxed e-flex e-con"
+							data-id="615ef69f" data-element_type="container"
+							data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-2df844ba elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon"
+									data-id="2df844ba" data-element_type="widget" data-widget_type="icon.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-icon-wrapper">
+											<div class="elementor-icon">
+												<i aria-hidden="true" class="fas fa-user-clock"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-593975cb elementor-widget elementor-widget-heading"
+									data-id="593975cb" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Workplace policies
+										</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-567faf9c elementor-widget elementor-widget-text-editor"
+									data-id="567faf9c" data-element_type="widget"
+									data-widget_type="text-editor.default">
+									<div class="elementor-widget-container">
+										<p>Veritatis architecto beatae dicta nemo enim ipsam voluptatem consequuntur
+											magni dolores eos voluptatem matis</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="elementor-element elementor-element-4319c551 e-con-boxed e-flex e-con" data-id="4319c551"
+			data-element_type="container"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2491e806 e-con-boxed e-flex e-con" data-id="2491e806"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-58ca7ea2 e-con-full e-flex e-con"
+							data-id="58ca7ea2" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+							<div class="elementor-element elementor-element-7e0bf9f3 elementor-widget elementor-widget-image"
+								data-id="7e0bf9f3" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="590" height="500"
+										src="img/Feature1-Img1-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-92" alt="" loading="lazy"
+										sizes="(max-width: 590px) 100vw, 590px" />
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-5f2a2f3f elementor-absolute elementor-widget elementor-widget-image"
+								data-id="5f2a2f3f" data-element_type="widget"
+								data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="217" height="217"
+										src="img/Feature1-Img2-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-93" alt="" loading="lazy"
+										sizes="(max-width: 217px) 100vw, 217px" />
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-4e2102ca elementor-absolute elementor-widget elementor-widget-image"
+								data-id="4e2102ca" data-element_type="widget"
+								data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="217" height="217"
+										src="img/Feature1-Img3-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-94" alt="" loading="lazy"
+										sizes="(max-width: 217px) 100vw, 217px" />
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-2aa34fd6 e-con-full e-flex e-con"
+							data-id="2aa34fd6" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+							<div class="elementor-element elementor-element-35ecb5bc elementor-widget elementor-widget-heading"
+								data-id="35ecb5bc" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">Highly experienced
+										speaker in field</h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-327bf9c0 elementor-widget elementor-widget-text-editor"
+								data-id="327bf9c0" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-element elementor-element-b5d4894 elementor-widget elementor-widget-droit-title"
+										data-id="b5d4894" data-element_type="widget"
+										data-widget_type="droit-title.default">
+										<div class="elementor-widget-container">
+											<div class="dl_title_section">
+												<p class="dl_sub_title_text">Inventore veritatis et architecto beatae
+													vitae dicta explicabo enim ipsam voluptatem quia voluptas sut
+													aspernatur</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-5133e987 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+								data-id="5133e987" data-element_type="widget" data-widget_type="icon-list.default">
+								<div class="elementor-widget-container">
+									<ul class="elementor-icon-list-items">
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-check-circle"></i> </span>
+											<span class="elementor-icon-list-text">Inventore veritatis et architecto
+												beatae</span>
+										</li>
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-check-circle"></i> </span>
+											<span class="elementor-icon-list-text">Tempor egestas morbi pulvinar
+												amet</span>
+										</li>
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-check-circle"></i> </span>
+											<span class="elementor-icon-list-text">Donec rutrum parturient consectetur
+												mauris</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-96a9f17 e-con-boxed e-flex e-con" data-id="96a9f17"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-11e1faa3 e-con-full e-flex e-con"
+							data-id="11e1faa3" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+							<div class="elementor-element elementor-element-6792bde8 elementor-widget elementor-widget-heading"
+								data-id="6792bde8" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">Question & answer with
+										the speaker</h2>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-4d89bde5 elementor-widget elementor-widget-text-editor"
+								data-id="4d89bde5" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-element elementor-element-b5d4894 elementor-widget elementor-widget-droit-title"
+										data-id="b5d4894" data-element_type="widget"
+										data-widget_type="droit-title.default">
+										<div class="elementor-widget-container">
+											<div class="dl_title_section">
+												<p class="dl_sub_title_text">Inventore veritatis et architecto beatae
+													vitae dicta explicabo enim ipsam voluptatem quia voluptas sut
+													aspernatur</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-d3eb7d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+								data-id="d3eb7d" data-element_type="widget" data-widget_type="icon-list.default">
+								<div class="elementor-widget-container">
+									<ul class="elementor-icon-list-items">
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-check-circle"></i> </span>
+											<span class="elementor-icon-list-text">Inventore veritatis et architecto
+												beatae</span>
+										</li>
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-check-circle"></i> </span>
+											<span class="elementor-icon-list-text">Tempor egestas morbi pulvinar
+												amet</span>
+										</li>
+										<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+												<i aria-hidden="true" class="fas fa-check-circle"></i> </span>
+											<span class="elementor-icon-list-text">Donec rutrum parturient consectetur
+												mauris</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-74784766 e-con-full e-flex e-con"
+							data-id="74784766" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+							<div class="elementor-element elementor-element-7d4b9124 elementor-widget elementor-widget-image"
+								data-id="7d4b9124" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="590" height="501"
+										src="img/Feature2-Img1-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-95" alt="" loading="lazy"
+										sizes="(max-width: 590px) 100vw, 590px" />
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-16333dbf elementor-absolute elementor-widget elementor-widget-image"
+								data-id="16333dbf" data-element_type="widget"
+								data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="339" height="189"
+										src="img/Feature2-Img2-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-96" alt="" loading="lazy"
+										sizes="(max-width: 339px) 100vw, 339px" />
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-23f26f7 elementor-absolute elementor-widget elementor-widget-image"
+								data-id="23f26f7" data-element_type="widget"
+								data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
+								data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async" width="317" height="189"
+										src="img/Feature3-Img3-Jim-Fahad-Digital.png"
+										class="attachment-large size-large wp-image-97" alt="" loading="lazy"
+										sizes="(max-width: 317px) 100vw, 317px" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="elementor-element elementor-element-af0984b e-con-boxed e-flex e-con" data-id="af0984b"
+			data-element_type="container" id="speakers" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5dd991c4 elementor-widget elementor-widget-heading"
+					data-id="5dd991c4" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+						<h2 class="elementor-heading-title elementor-size-default">Meet with our speakers</h2>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-b426acb e-con-boxed e-flex e-con" data-id="b426acb"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-67b61b5d elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="67b61b5d" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<style>
+									/*! elementor - v3.13.1 - 09-05-2023 */
+									.elementor-widget-image-box .elementor-image-box-content {
+										width: 100%
+									}
+
+									@media (min-width:768px) {
+
+										.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
+										.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+											display: flex
+										}
+
+										.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+											text-align: right;
+											flex-direction: row-reverse
+										}
+
+										.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
+											text-align: left;
+											flex-direction: row
+										}
+
+										.elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
+											margin: auto
+										}
+
+										.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+											align-items: flex-start
+										}
+
+										.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
+											align-items: center
+										}
+
+										.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+											align-items: flex-end
+										}
+									}
+
+									@media (max-width:767px) {
+										.elementor-widget-image-box .elementor-image-box-img {
+											margin-left: auto !important;
+											margin-right: auto !important;
+											margin-bottom: 15px
+										}
+									}
+
+									.elementor-widget-image-box .elementor-image-box-img {
+										display: inline-block
+									}
+
+									.elementor-widget-image-box .elementor-image-box-title a {
+										color: inherit
+									}
+
+									.elementor-widget-image-box .elementor-image-box-wrapper {
+										text-align: center
+									}
+
+									.elementor-widget-image-box .elementor-image-box-description {
+										margin: 0
+									}
+								</style>
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="305"
+											height="330" src="img/Speaker1-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-107" alt="" loading="lazy"
+											sizes="(max-width: 305px) 100vw, 305px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">Rafael E. Kennison</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-2f87ff3 elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="2f87ff3" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="304"
+											height="330" src="img/Speaker2-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-112" alt="" loading="lazy"
+											sizes="(max-width: 304px) 100vw, 304px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">John T. Johnson</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-48ddc3f2 elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="48ddc3f2" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="305"
+											height="330" src="img/Speaker3-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-113" alt="" loading="lazy"
+											sizes="(max-width: 305px) 100vw, 305px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">Russell M. Bucher</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-1a467688 elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="1a467688" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="304"
+											height="330" src="img/Speaker4-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-114" alt="" loading="lazy"
+											sizes="(max-width: 304px) 100vw, 304px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">William P. Britton</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-443b1104 elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="443b1104" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="305"
+											height="330" src="img/Speaker5-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-115" alt="" loading="lazy"
+											sizes="(max-width: 305px) 100vw, 305px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">Marko O. Talijan</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-3c06a995 elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="3c06a995" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="304"
+											height="330" src="img/Speaker6-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-116" alt="" loading="lazy"
+										
+											sizes="(max-width: 304px) 100vw, 304px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">Rafael E. Kennison</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-36872b0b elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="36872b0b" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="305"
+											height="330" src="img/Speaker7-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-117" alt="" loading="lazy"
+											sizes="(max-width: 305px) 100vw, 305px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">Dusan Kovavic</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-3454434f elementor-widget__width-initial e-transform elementor-widget-mobile__width-inherit elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+							data-id="3454434f" data-element_type="widget"
+							data-settings="{&quot;_transform_skewX_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewX_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_skewY_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+							data-widget_type="image-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image-box-wrapper">
+									<figure class="elementor-image-box-img"><img decoding="async" width="304"
+											height="330" src="img/Speaker8-Jim-Fahad-Digital.jpg"
+											class="attachment-full size-full wp-image-118" alt="" loading="lazy"
+											sizes="(max-width: 304px) 100vw, 304px" /></figure>
+									<div class="elementor-image-box-content">
+										<h3 class="elementor-image-box-title">Rafael E. Kennison</h3>
+										<p class="elementor-image-box-description">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="elementor-element elementor-element-48d46fba e-con-boxed e-flex e-con" data-id="48d46fba"
+			data-element_type="container" id="faq"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4ca3f7b4 elementor-widget elementor-widget-heading"
+					data-id="4ca3f7b4" data-element_type="widget" data-widget_type="heading.default">
+					<div class="elementor-widget-container">
+						<h2 class="elementor-heading-title elementor-size-default">Frequently asked <br>questions</h2>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-55d9e7bb elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-accordion"
+					data-id="55d9e7bb" data-element_type="widget" data-widget_type="accordion.default">
+					<div class="elementor-widget-container">
+						<style>
+							/*! elementor - v3.13.1 - 09-05-2023 */
+							.elementor-accordion {
+								text-align: left
+							}
+
+							.elementor-accordion .elementor-accordion-item {
+								border: 1px solid #d5d8dc
+							}
+
+							.elementor-accordion .elementor-accordion-item+.elementor-accordion-item {
+								border-top: none
+							}
+
+							.elementor-accordion .elementor-tab-title {
+								margin: 0;
+								padding: 15px 20px;
+								font-weight: 700;
+								line-height: 1;
+								cursor: pointer;
+								outline: none
+							}
+
+							.elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+								display: inline-block;
+								width: 1.5em
+							}
+
+							.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg {
+								width: 1em;
+								height: 1em
+							}
+
+							.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right {
+								float: right;
+								text-align: right
+							}
+
+							.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left {
+								float: left;
+								text-align: left
+							}
+
+							.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed {
+								display: block
+							}
+
+							.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,
+							.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed {
+								display: none
+							}
+
+							.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened {
+								display: block
+							}
+
+							.elementor-accordion .elementor-tab-content {
+								display: none;
+								padding: 15px 20px;
+								border-top: 1px solid #d5d8dc
+							}
+
+							@media (max-width:767px) {
+								.elementor-accordion .elementor-tab-title {
+									padding: 12px 15px
+								}
+
+								.elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+									width: 1.2em
+								}
+
+								.elementor-accordion .elementor-tab-content {
+									padding: 7px 15px
+								}
+							}
+
+							.e-con-inner>.elementor-widget-accordion,
+							.e-con>.elementor-widget-accordion {
+								width: var(--container-widget-width);
+								--flex-grow: var(--container-widget-flex-grow)
+							}
+						</style>
+						<div class="elementor-accordion" role="tablist">
+							<div class="elementor-accordion-item">
+								<div id="elementor-tab-title-1441" class="elementor-tab-title" data-tab="1" role="tab"
+									aria-controls="elementor-tab-content-1441" aria-expanded="false">
+									<span class="elementor-accordion-icon elementor-accordion-icon-left"
+										aria-hidden="true">
+										<span class="elementor-accordion-icon-closed"><i
+												class="fas fa-plus-circle"></i></span>
+										<span class="elementor-accordion-icon-opened"><i
+												class="fas fa-minus-circle"></i></span>
+									</span>
+									<a class="elementor-accordion-title" href="#">How to improve your design process
+										with data-based personas </a>
+								</div>
+								<div id="elementor-tab-content-1441" class="elementor-tab-content elementor-clearfix"
+									data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1441">
+									<p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium dolore
+										mque laudantium inventore ipsa quae ab illo veritatis et quasi architecto beatae
+										vitae</p>
+								</div>
+							</div>
+							<div class="elementor-accordion-item">
+								<div id="elementor-tab-title-1442" class="elementor-tab-title" data-tab="2" role="tab"
+									aria-controls="elementor-tab-content-1442" aria-expanded="false">
+									<span class="elementor-accordion-icon elementor-accordion-icon-left"
+										aria-hidden="true">
+										<span class="elementor-accordion-icon-closed"><i
+												class="fas fa-plus-circle"></i></span>
+										<span class="elementor-accordion-icon-opened"><i
+												class="fas fa-minus-circle"></i></span>
+									</span>
+									<a class="elementor-accordion-title" href="#">Better research, better design, better
+										results </a>
+								</div>
+								<div id="elementor-tab-content-1442" class="elementor-tab-content elementor-clearfix"
+									data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1442">Lorem ipsum
+									dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+									mattis, pulvinar dapibus leo.</div>
+							</div>
+							<div class="elementor-accordion-item">
+								<div id="elementor-tab-title-1443" class="elementor-tab-title" data-tab="3" role="tab"
+									aria-controls="elementor-tab-content-1443" aria-expanded="false">
+									<span class="elementor-accordion-icon elementor-accordion-icon-left"
+										aria-hidden="true">
+										<span class="elementor-accordion-icon-closed"><i
+												class="fas fa-plus-circle"></i></span>
+										<span class="elementor-accordion-icon-opened"><i
+												class="fas fa-minus-circle"></i></span>
+									</span>
+									<a class="elementor-accordion-title" href="#">Using low vision as my tool to help me
+										teach wordpress </a>
+								</div>
+								<div id="elementor-tab-content-1443" class="elementor-tab-content elementor-clearfix"
+									data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1443">Lorem ipsum
+									dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+									mattis, pulvinar dapibus leo.</div>
+							</div>
+							<div class="elementor-accordion-item">
+								<div id="elementor-tab-title-1444" class="elementor-tab-title" data-tab="4" role="tab"
+									aria-controls="elementor-tab-content-1444" aria-expanded="false">
+									<span class="elementor-accordion-icon elementor-accordion-icon-left"
+										aria-hidden="true">
+										<span class="elementor-accordion-icon-closed"><i
+												class="fas fa-plus-circle"></i></span>
+										<span class="elementor-accordion-icon-opened"><i
+												class="fas fa-minus-circle"></i></span>
+									</span>
+									<a class="elementor-accordion-title" href="#">Smashing book excerpt bringing
+										personality back web </a>
+								</div>
+								<div id="elementor-tab-content-1444" class="elementor-tab-content elementor-clearfix"
+									data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1444">Lorem ipsum
+									dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+									mattis, pulvinar dapibus leo.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="elementor-element elementor-element-4cf67a98 e-con-boxed e-flex e-con" data-id="4cf67a98"
+			data-element_type="container" id="booking"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5cbf3847 e-con-full e-flex e-con" data-id="5cbf3847"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-6f5abdd6 elementor-widget elementor-widget-heading"
+						data-id="6f5abdd6" data-element_type="widget" data-widget_type="heading.default">
+						<div class="elementor-widget-container">
+							<h2 class="elementor-heading-title elementor-size-default">Let’s improve your skills
+								together</h2>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-4e7a49f2 elementor-widget elementor-widget-text-editor"
+						data-id="4e7a49f2" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-element elementor-element-b5d4894 elementor-widget elementor-widget-droit-title"
+								data-id="b5d4894" data-element_type="widget" data-widget_type="droit-title.default">
+								<div class="elementor-widget-container">
+									<div class="dl_title_section">
+										<p class="dl_sub_title_text">Inventore veritatis et architecto beatae vitae
+											dicta explicabo enim ipsam voluptatem quia voluptas sut aspernatur</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="elementor-element elementor-element-47d37aee e-con-boxed e-flex e-con"
+						data-id="47d37aee" data-element_type="container"
+						data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+						<div class="e-con-inner">
+							<div class="elementor-element elementor-element-b793b25 elementor-widget elementor-widget-counter"
+								data-id="b793b25" data-element_type="widget" data-widget_type="counter.default">
+								<div class="elementor-widget-container">
+									<style>
+										/*! elementor - v3.13.1 - 09-05-2023 */
+										.elementor-counter .elementor-counter-number-wrapper {
+											display: flex;
+											font-size: 69px;
+											font-weight: 600;
+											line-height: 1
+										}
+
+										.elementor-counter .elementor-counter-number-prefix,
+										.elementor-counter .elementor-counter-number-suffix {
+											flex-grow: 1;
+											white-space: pre-wrap
+										}
+
+										.elementor-counter .elementor-counter-number-prefix {
+											text-align: right
+										}
+
+										.elementor-counter .elementor-counter-number-suffix {
+											text-align: left
+										}
+
+										.elementor-counter .elementor-counter-title {
+											text-align: center;
+											font-size: 19px;
+											font-weight: 400;
+											line-height: 2.5
+										}
+									</style>
+									<div class="elementor-counter">
+										<div class="elementor-counter-number-wrapper">
+											<span class="elementor-counter-number-prefix"></span>
+											<span class="elementor-counter-number" data-duration="2000"
+												data-to-value="642" data-from-value="0" data-delimiter=",">0</span>
+											<span class="elementor-counter-number-suffix"></span>
+										</div>
+										<div class="elementor-counter-title">Total Registered</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-66cde529 elementor-widget elementor-widget-counter"
+								data-id="66cde529" data-element_type="widget" data-widget_type="counter.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-counter">
+										<div class="elementor-counter-number-wrapper">
+											<span class="elementor-counter-number-prefix"></span>
+											<span class="elementor-counter-number" data-duration="2000"
+												data-to-value="2" data-from-value="0" data-delimiter=",">0</span>
+											<span class="elementor-counter-number-suffix">+</span>
+										</div>
+										<div class="elementor-counter-title">Hours/Session</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-1ff7db1a e-con-full e-flex e-con" data-id="1ff7db1a"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+					<div class="elementor-element elementor-element-73536980 elementor-widget elementor-widget-video"
+						data-id="73536980" data-element_type="widget"
+						data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
+						data-widget_type="video.default">
+						<div class="elementor-widget-container">
+							<style>
+								/*! elementor - v3.13.1 - 09-05-2023 */
+								.elementor-widget-video .elementor-widget-container {
+									overflow: hidden;
+									transform: translateZ(0)
+								}
+
+								.elementor-widget-video .elementor-wrapper {
+									aspect-ratio: var(--video-aspect-ratio)
+								}
+
+								.elementor-widget-video .elementor-wrapper iframe,
+								.elementor-widget-video .elementor-wrapper video {
+									height: 100%;
+									width: 100%;
+									display: flex;
+									border: none;
+									background-color: #000
+								}
+
+								@supports not (aspect-ratio:1/1) {
+									.elementor-widget-video .elementor-wrapper {
+										position: relative;
+										overflow: hidden;
+										height: 0;
+										padding-bottom: calc(100% / var(--video-aspect-ratio))
+									}
+
+									.elementor-widget-video .elementor-wrapper iframe,
+									.elementor-widget-video .elementor-wrapper video {
+										position: absolute;
+										top: 0;
+										right: 0;
+										bottom: 0;
+										left: 0
+									}
+								}
+
+								.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay {
+									position: absolute;
+									top: 0;
+									left: 0;
+									width: 100%;
+									height: 100%;
+									background-size: cover;
+									background-position: 50%
+								}
+
+								.elementor-widget-video .elementor-custom-embed-image-overlay {
+									cursor: pointer;
+									text-align: center
+								}
+
+								.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i {
+									opacity: 1
+								}
+
+								.elementor-widget-video .elementor-custom-embed-image-overlay img {
+									display: block;
+									width: 100%
+								}
+
+								.elementor-widget-video .e-hosted-video .elementor-video {
+									-o-object-fit: cover;
+									object-fit: cover
+								}
+
+								.e-con-inner>.elementor-widget-video,
+								.e-con>.elementor-widget-video {
+									width: var(--container-widget-width);
+									--flex-grow: var(--container-widget-flex-grow)
+								}
+							</style>
+							<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+								<video class="elementor-video"
+									src="img/Webiner-video-Jim-Fahad-Digital.mp4" autoplay=""
+									loop="" muted="muted" playsinline="" controlsList="nodownload"></video>
+							</div>
+						</div>
+					</div>
+
+					<div class="elementor-element elementor-element-4039d54 elementor-align-center elementor-widget elementor-widget-button"
+						data-id="4039d54" data-element_type="widget" data-widget_type="button.default">
+						<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+								<a href="#" class="elementor-button-link elementor-button elementor-size-sm"
+									role="button">
+									<span class="elementor-button-content-wrapper">
+										<span class="elementor-button-text">Book Your Seat Now</span>
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="elementor-element elementor-element-6ef3e61a e-con-boxed e-flex e-con" data-id="6ef3e61a"
+			data-element_type="container"
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-122d1d43 e-con-boxed e-flex e-con" data-id="122d1d43"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-50f06a0 e-con-boxed e-flex e-con"
+							data-id="50f06a0" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-31054cad elementor-widget elementor-widget-heading"
+									data-id="31054cad" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Links</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-2ff2e5bc elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+									data-id="2ff2e5bc" data-element_type="widget" data-widget_type="icon-list.default">
+									<div class="elementor-widget-container">
+										<ul class="elementor-icon-list-items">
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Disclaimer</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Refund Policy</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Support</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Request a Quote</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-11c33a37 e-con-boxed e-flex e-con"
+							data-id="11c33a37" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-410337ec elementor-widget elementor-widget-heading"
+									data-id="410337ec" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Resources</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-4a863caf elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+									data-id="4a863caf" data-element_type="widget" data-widget_type="icon-list.default">
+									<div class="elementor-widget-container">
+										<ul class="elementor-icon-list-items">
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Free eBooks</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Development Tutorial</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">How to Blogging</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Youtube Playlist</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-17cfdab2 e-con-boxed e-flex e-con"
+							data-id="17cfdab2" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-1d2085c6 elementor-widget elementor-widget-heading"
+									data-id="1d2085c6" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Company</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-3da19d6 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+									data-id="3da19d6" data-element_type="widget" data-widget_type="icon-list.default">
+									<div class="elementor-widget-container">
+										<ul class="elementor-icon-list-items">
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Pricing</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Careers</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Contact Us</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-cb6b478 e-con-boxed e-flex e-con"
+							data-id="cb6b478" data-element_type="container"
+							data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-371093b9 elementor-widget elementor-widget-heading"
+									data-id="371093b9" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Help</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-5a45d274 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+									data-id="5a45d274" data-element_type="widget" data-widget_type="icon-list.default">
+									<div class="elementor-widget-container">
+										<ul class="elementor-icon-list-items">
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Customer Support</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Delivery Details</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Terms & Conditions</span>
+												</a>
+											</li>
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-text">Privacy Policy</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-5ac65b4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+					data-id="5ac65b4" data-element_type="widget" data-widget_type="divider.default">
+					<div class="elementor-widget-container">
+						<style>
+							/*! elementor - v3.13.1 - 09-05-2023 */
+							.elementor-widget-divider {
+								--divider-border-style: none;
+								--divider-border-width: 1px;
+								--divider-color: #0c0d0e;
+								--divider-icon-size: 20px;
+								--divider-element-spacing: 10px;
+								--divider-pattern-height: 24px;
+								--divider-pattern-size: 20px;
+								--divider-pattern-url: none;
+								--divider-pattern-repeat: repeat-x
+							}
+
+							.elementor-widget-divider .elementor-divider {
+								display: flex
+							}
+
+							.elementor-widget-divider .elementor-divider__text {
+								font-size: 15px;
+								line-height: 1;
+								max-width: 95%
+							}
+
+							.elementor-widget-divider .elementor-divider__element {
+								margin: 0 var(--divider-element-spacing);
+								flex-shrink: 0
+							}
+
+							.elementor-widget-divider .elementor-icon {
+								font-size: var(--divider-icon-size)
+							}
+
+							.elementor-widget-divider .elementor-divider-separator {
+								display: flex;
+								margin: 0;
+								direction: ltr
+							}
+
+							.elementor-widget-divider--view-line_icon .elementor-divider-separator,
+							.elementor-widget-divider--view-line_text .elementor-divider-separator {
+								align-items: center
+							}
+
+							.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+							.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+							.elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+							.elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+								display: block;
+								content: "";
+								border-bottom: 0;
+								flex-grow: 1;
+								border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+							}
+
+							.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+								flex-grow: 0;
+								flex-shrink: 100
+							}
+
+							.elementor-widget-divider--element-align-left .elementor-divider-separator:before {
+								content: none
+							}
+
+							.elementor-widget-divider--element-align-left .elementor-divider__element {
+								margin-left: 0
+							}
+
+							.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+								flex-grow: 0;
+								flex-shrink: 100
+							}
+
+							.elementor-widget-divider--element-align-right .elementor-divider-separator:after {
+								content: none
+							}
+
+							.elementor-widget-divider--element-align-right .elementor-divider__element {
+								margin-right: 0
+							}
+
+							.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+								border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+							}
+
+							.elementor-widget-divider--separator-type-pattern {
+								--divider-border-style: none
+							}
+
+							.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
+							.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
+							.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
+							.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
+								width: 100%;
+								min-height: var(--divider-pattern-height);
+								-webkit-mask-size: var(--divider-pattern-size) 100%;
+								mask-size: var(--divider-pattern-size) 100%;
+								-webkit-mask-repeat: var(--divider-pattern-repeat);
+								mask-repeat: var(--divider-pattern-repeat);
+								background-color: var(--divider-color);
+								-webkit-mask-image: var(--divider-pattern-url);
+								mask-image: var(--divider-pattern-url)
+							}
+
+							.elementor-widget-divider--no-spacing {
+								--divider-pattern-size: auto
+							}
+
+							.elementor-widget-divider--bg-round {
+								--divider-pattern-repeat: round
+							}
+
+							.rtl .elementor-widget-divider .elementor-divider__text {
+								direction: rtl
+							}
+
+							.e-con-inner>.elementor-widget-divider,
+							.e-con>.elementor-widget-divider {
+								width: var(--container-widget-width, 100%);
+								--flex-grow: var(--container-widget-flex-grow)
+							}
+						</style>
+						<div class="elementor-divider">
+							<span class="elementor-divider-separator">
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-4fe1f22d e-con-boxed e-flex e-con" data-id="4fe1f22d"
+					data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-38fecc0c elementor-widget elementor-widget-text-editor"
+							data-id="38fecc0c" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p>© 2023. Kitpapa.com All Rights Reserved.</p>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-70550d1 elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
+							data-id="70550d1" data-element_type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-widget-container">
+								<style>
+									/*! elementor - v3.13.1 - 09-05-2023 */
+									.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+									.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+									.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+										line-height: 1;
+										font-size: 0
+									}
+
+									.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+										display: inline-grid
+									}
+
+									.elementor-widget-social-icons .elementor-grid {
+										grid-column-gap: var(--grid-column-gap, 5px);
+										grid-row-gap: var(--grid-row-gap, 5px);
+										grid-template-columns: var(--grid-template-columns);
+										justify-content: var(--justify-content, center);
+										justify-items: var(--justify-content, center)
+									}
+
+									.elementor-icon.elementor-social-icon {
+										font-size: var(--icon-size, 25px);
+										line-height: var(--icon-size, 25px);
+										width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
+										height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))
+									}
+
+									.elementor-social-icon {
+										--e-social-icon-icon-color: #fff;
+										display: inline-flex;
+										background-color: #69727d;
+										align-items: center;
+										justify-content: center;
+										text-align: center;
+										cursor: pointer
+									}
+
+									.elementor-social-icon i {
+										color: var(--e-social-icon-icon-color)
+									}
+
+									.elementor-social-icon svg {
+										fill: var(--e-social-icon-icon-color)
+									}
+
+									.elementor-social-icon:last-child {
+										margin: 0
+									}
+
+									.elementor-social-icon:hover {
+										opacity: .9;
+										color: #fff
+									}
+
+									.elementor-social-icon-android {
+										background-color: #a4c639
+									}
+
+									.elementor-social-icon-apple {
+										background-color: #999
+									}
+
+									.elementor-social-icon-behance {
+										background-color: #1769ff
+									}
+
+									.elementor-social-icon-bitbucket {
+										background-color: #205081
+									}
+
+									.elementor-social-icon-codepen {
+										background-color: #000
+									}
+
+									.elementor-social-icon-delicious {
+										background-color: #39f
+									}
+
+									.elementor-social-icon-deviantart {
+										background-color: #05cc47
+									}
+
+									.elementor-social-icon-digg {
+										background-color: #005be2
+									}
+
+									.elementor-social-icon-dribbble {
+										background-color: #ea4c89
+									}
+
+									.elementor-social-icon-elementor {
+										background-color: #d30c5c
+									}
+
+									.elementor-social-icon-envelope {
+										background-color: #ea4335
+									}
+
+									.elementor-social-icon-facebook,
+									.elementor-social-icon-facebook-f {
+										background-color: #3b5998
+									}
+
+									.elementor-social-icon-flickr {
+										background-color: #0063dc
+									}
+
+									.elementor-social-icon-foursquare {
+										background-color: #2d5be3
+									}
+
+									.elementor-social-icon-free-code-camp,
+									.elementor-social-icon-freecodecamp {
+										background-color: #006400
+									}
+
+									.elementor-social-icon-github {
+										background-color: #333
+									}
+
+									.elementor-social-icon-gitlab {
+										background-color: #e24329
+									}
+
+									.elementor-social-icon-globe {
+										background-color: #69727d
+									}
+
+									.elementor-social-icon-google-plus,
+									.elementor-social-icon-google-plus-g {
+										background-color: #dd4b39
+									}
+
+									.elementor-social-icon-houzz {
+										background-color: #7ac142
+									}
+
+									.elementor-social-icon-instagram {
+										background-color: #262626
+									}
+
+									.elementor-social-icon-jsfiddle {
+										background-color: #487aa2
+									}
+
+									.elementor-social-icon-link {
+										background-color: #818a91
+									}
+
+									.elementor-social-icon-linkedin,
+									.elementor-social-icon-linkedin-in {
+										background-color: #0077b5
+									}
+
+									.elementor-social-icon-medium {
+										background-color: #00ab6b
+									}
+
+									.elementor-social-icon-meetup {
+										background-color: #ec1c40
+									}
+
+									.elementor-social-icon-mixcloud {
+										background-color: #273a4b
+									}
+
+									.elementor-social-icon-odnoklassniki {
+										background-color: #f4731c
+									}
+
+									.elementor-social-icon-pinterest {
+										background-color: #bd081c
+									}
+
+									.elementor-social-icon-product-hunt {
+										background-color: #da552f
+									}
+
+									.elementor-social-icon-reddit {
+										background-color: #ff4500
+									}
+
+									.elementor-social-icon-rss {
+										background-color: #f26522
+									}
+
+									.elementor-social-icon-shopping-cart {
+										background-color: #4caf50
+									}
+
+									.elementor-social-icon-skype {
+										background-color: #00aff0
+									}
+
+									.elementor-social-icon-slideshare {
+										background-color: #0077b5
+									}
+
+									.elementor-social-icon-snapchat {
+										background-color: #fffc00
+									}
+
+									.elementor-social-icon-soundcloud {
+										background-color: #f80
+									}
+
+									.elementor-social-icon-spotify {
+										background-color: #2ebd59
+									}
+
+									.elementor-social-icon-stack-overflow {
+										background-color: #fe7a15
+									}
+
+									.elementor-social-icon-steam {
+										background-color: #00adee
+									}
+
+									.elementor-social-icon-stumbleupon {
+										background-color: #eb4924
+									}
+
+									.elementor-social-icon-telegram {
+										background-color: #2ca5e0
+									}
+
+									.elementor-social-icon-thumb-tack {
+										background-color: #1aa1d8
+									}
+
+									.elementor-social-icon-tripadvisor {
+										background-color: #589442
+									}
+
+									.elementor-social-icon-tumblr {
+										background-color: #35465c
+									}
+
+									.elementor-social-icon-twitch {
+										background-color: #6441a5
+									}
+
+									.elementor-social-icon-twitter {
+										background-color: #1da1f2
+									}
+
+									.elementor-social-icon-viber {
+										background-color: #665cac
+									}
+
+									.elementor-social-icon-vimeo {
+										background-color: #1ab7ea
+									}
+
+									.elementor-social-icon-vk {
+										background-color: #45668e
+									}
+
+									.elementor-social-icon-weibo {
+										background-color: #dd2430
+									}
+
+									.elementor-social-icon-weixin {
+										background-color: #31a918
+									}
+
+									.elementor-social-icon-whatsapp {
+										background-color: #25d366
+									}
+
+									.elementor-social-icon-wordpress {
+										background-color: #21759b
+									}
+
+									.elementor-social-icon-xing {
+										background-color: #026466
+									}
+
+									.elementor-social-icon-yelp {
+										background-color: #af0606
+									}
+
+									.elementor-social-icon-youtube {
+										background-color: #cd201f
+									}
+
+									.elementor-social-icon-500px {
+										background-color: #0099e5
+									}
+
+									.elementor-shape-rounded .elementor-icon.elementor-social-icon {
+										border-radius: 10%
+									}
+
+									.elementor-shape-circle .elementor-icon.elementor-social-icon {
+										border-radius: 50%
+									}
+								</style>
+								<div class="elementor-social-icons-wrapper elementor-grid">
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-6078d42"
+											target="_blank">
+											<span class="elementor-screen-only">Facebook</span>
+											<i class="fab fa-facebook"></i> </a>
+									</span>
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-8095e7e"
+											target="_blank">
+											<span class="elementor-screen-only">Twitter</span>
+											<i class="fab fa-twitter"></i> </a>
+									</span>
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-bf59cab"
+											target="_blank">
+											<span class="elementor-screen-only">Youtube</span>
+											<i class="fab fa-youtube"></i> </a>
+									</span>
+									<span class="elementor-grid-item">
+										<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-4f52433"
+											target="_blank">
+											<span class="elementor-screen-only">Linkedin</span>
+											<i class="fab fa-linkedin"></i> </a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="elementor-element elementor-element-ed64057 e-con-boxed e-flex e-con" data-id="ed64057"
+			data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+			<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4e0ac847 elementor-widget elementor-widget-html"
+					data-id="4e0ac847" data-element_type="widget" data-widget_type="html.default">
+					<div class="elementor-widget-container">
+						<style>
+							.info-box h2,
+							.info-box p {
+								transition: 0.5s ease-in-out;
+							}
+
+							.info-box:hover h2.elementor-heading-title {
+								color: #242527 !important;
+							}
+
+							.info-box:hover p {
+								color: #666668 !important;
+							}
+
+							html,
+							body {
+								overflow-x: hidden;
+							}
+						</style>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='js/hello-frontend.min8a54.js'
+		id='hello-theme-frontend-js'></script>
+	<script src='js/frontendd2ac.js'
+		id='hfe-frontend-js-js'></script>
+	<script src='js/jquery-numerator.min3958.js'
+		id='jquery-numerator-js'></script>
+	<script src='js/webpack.runtime.min2916.js'
+		id='elementor-webpack-runtime-js'></script>
+	<script src='js/frontend-modules.min2916.js'
+		id='elementor-frontend-modules-js'></script>
+	<script src='js/waypoints.min05da.js'
+		id='elementor-waypoints-js'></script>
+	<script src='js/core.min3f14.js' id='jquery-ui-core-js'></script>
+	<script id='elementor-frontend-js-before'>
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.13.1", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "hello-theme-header-footer": true, "landing-pages": true }, "urls": { "assets": "https:\/\/kitpapa.net\/webi\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "hello_header_logo_type": "title", "hello_header_menu_layout": "horizontal", "hello_footer_logo_type": "logo" }, "post": { "id": 215, "title": "Webi", "excerpt": "", "featuredImage": false } };
+	</script>
+	<script src='js/frontend.min2916.js'
+		id='elementor-frontend-js'></script>
+</body>
+
+</html>
