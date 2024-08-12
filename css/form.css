@@ -14,10 +14,15 @@
     overflow-y: auto; /* Add scrolling if content exceeds height */
 }
 
+
+
 /* Expanded Form Container */
 .floating-form-container.expanded {
     max-width: 280px; /* Expanded width */
+    max-height: 400px; /* Adjust height if needed */
+    display: block; /* Ensure it is visible when expanded */
 }
+
 
 /* Floating Form */
 .floating-form {
