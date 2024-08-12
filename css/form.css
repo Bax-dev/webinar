@@ -1,0 +1,91 @@
+/* Floating Form Container */
+.floating-form-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 100%;
+    max-width: 280px; /* Reduced width of the form */
+    max-height: 400px; /* Adjust this value to control the height */
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: max-width 0.3s ease, max-height 0.3s ease;
+    overflow-y: auto; /* Add scrolling if content exceeds height */
+}
+
+/* Expanded Form Container */
+.floating-form-container.expanded {
+    max-width: 280px; /* Expanded width */
+}
+
+/* Floating Form */
+.floating-form {
+    padding: 15px;
+    display: none; /* Initially hidden */
+}
+
+/* Display Form when Expanded */
+.floating-form-container.expanded .floating-form {
+    display: block; /* Show form when expanded */
+}
+
+/* Register Button (Sticking to Scroll Bar) */
+.sticky-register-btn {
+    position: fixed;
+    bottom: 20px; /* Position at the bottom of the viewport */
+    right: 20px;
+    background-color: #ff6900;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1001; /* Ensure it is above the form */
+}
+
+.sticky-register-btn:hover {
+    background-color: #e55b0b;
+    transform: scale(1.05);
+}
+
+/* Input Styles */
+.floating-form input,
+.floating-form select,
+.floating-form button {
+    padding: 8px 10px;
+    font-size: 0.85em;
+    border-radius: 8px;
+    width: 100%; /* Full width for mobile */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.floating-form label {
+    font-size: 0.85em;
+    color: #555;
+}
+
+input:focus {
+    border-color: #ff6900;
+    box-shadow: 0 0 6px rgba(255, 105, 0, 0.2);
+    outline: none;
+}
+
+/* Mobile-specific Styles */
+@media (max-width: 480px) {
+    .floating-form-container {
+        max-width: 100%; /* Full width on small screens */
+        width: 100%; /* Ensure it takes full width */
+        top: 10px;
+        right: 10px;
+    }
+
+    .sticky-register-btn {
+        bottom: 10px;
+        right: 10px;
+    }
+}

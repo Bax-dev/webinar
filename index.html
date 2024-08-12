@@ -393,6 +393,8 @@
 		href='css/post-215134b.css' media='all' />
 	<link rel='stylesheet' id='hfe-widgets-style-css'
 		href='css/frontendd2ac.css' media='all' />
+		<link rel='stylesheet' id='hfe-widgets-style-css'
+		href='css/form.css' media='all' />
 	<link rel='stylesheet' id='hello-elementor-css' href='css/style.min653d.css'
 		media='all' />
 	<link rel='stylesheet' id='hello-elementor-theme-style-css'
@@ -621,10 +623,6 @@
 												<li id="menu-item-150"
 													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
 													<a href="#booking" class="hfe-menu-item">Booking</a></li>
-
-													<li id="menu-item-151"
-													class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-													<a href="register.html" class="hfe-menu-item">Register</a></li>
 
 											</ul>
 										</nav>
@@ -935,6 +933,51 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="floating-form-container" id="floatingFormContainer">
+			<div class="floating-form">
+				<h2>Join Our Webinar</h2>
+				<p>Register now to secure your spot and learn from our experts!</p>
+				<form action="#" method="POST">
+					<div class="form-group">
+						<label for="fullname">Full Name</label>
+						<input type="text" id="fullname" name="fullname" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+					<div class="form-group">
+						<label for="phone">Phone Number</label>
+						<input type="tel" id="phone" name="phone" required>
+					</div>
+					<div class="form-group">
+						<label for="company">Company Name</label>
+						<input type="text" id="company" name="company" required>
+					</div>
+					<div class="form-group">
+						<label for="country">Country</label>
+						<input type="text" id="country" name="country" required>
+					</div>
+					<div class="form-group">
+						<label for="state">State</label>
+						<input type="text" id="state" name="state" required>
+					</div>
+					<div class="form-group">
+						<label for="webinar-date">Preferred Webinar Date</label>
+						<input type="date" id="webinar-date" name="webinar-date" required>
+					</div>
+					<div class="form-group">
+						<label for="interest-areas">Interest Areas</label>
+						<input type="text" id="interest-areas" name="interest-areas" required>
+					</div>
+					<button type="submit" class="submit-btn">Register</button>
+				</form>
+			</div>
+			<button class="sticky-register-btn" onclick="toggleForm()">Register</button>
+		</div>
+		
+
 		<div class="elementor-element elementor-element-4319c551 e-con-boxed e-flex e-con" data-id="4319c551"
 			data-element_type="container"
 			data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
@@ -2396,7 +2439,8 @@
 	</div>
 	<script src='js/hello-frontend.min8a54.js'
 		id='hello-theme-frontend-js'></script>
-	<script src='js/frontendd2ac.js'
+	<script src='js/frontendd2ac.js'></script>
+		<script src='js/form.js'
 		id='hfe-frontend-js-js'></script>
 	<script src='js/jquery-numerator.min3958.js'
 		id='jquery-numerator-js'></script>
